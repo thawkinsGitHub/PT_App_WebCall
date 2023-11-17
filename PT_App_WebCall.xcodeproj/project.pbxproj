@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFA671B02B07D735008202E0 /* PT_App_WebCallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA671AF2B07D735008202E0 /* PT_App_WebCallApp.swift */; };
+		EFA671B22B07D735008202E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA671B12B07D735008202E0 /* ContentView.swift */; };
+		EFA671B42B07D737008202E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA671B32B07D737008202E0 /* Assets.xcassets */; };
+		EFA671B82B07D737008202E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA671B72B07D737008202E0 /* Preview Assets.xcassets */; };
+		EFA671C22B07D737008202E0 /* PT_App_WebCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA671C12B07D737008202E0 /* PT_App_WebCallTests.swift */; };
+		EFA671CC2B07D737008202E0 /* PT_App_WebCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA671CB2B07D737008202E0 /* PT_App_WebCallUITests.swift */; };
+		EFA671CE2B07D737008202E0 /* PT_App_WebCallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA671CD2B07D737008202E0 /* PT_App_WebCallUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFA671BE2B07D737008202E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA671A42B07D735008202E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFA671AB2B07D735008202E0;
+			remoteInfo = PT_App_WebCall;
+		};
+		EFA671C82B07D737008202E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA671A42B07D735008202E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFA671AB2B07D735008202E0;
+			remoteInfo = PT_App_WebCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFA671AC2B07D735008202E0 /* PT_App_WebCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PT_App_WebCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA671AF2B07D735008202E0 /* PT_App_WebCallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PT_App_WebCallApp.swift; sourceTree = "<group>"; };
+		EFA671B12B07D735008202E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFA671B32B07D737008202E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFA671B52B07D737008202E0 /* PT_App_WebCall.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PT_App_WebCall.entitlements; sourceTree = "<group>"; };
+		EFA671B72B07D737008202E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFA671BD2B07D737008202E0 /* PT_App_WebCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PT_App_WebCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA671C12B07D737008202E0 /* PT_App_WebCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PT_App_WebCallTests.swift; sourceTree = "<group>"; };
+		EFA671C72B07D737008202E0 /* PT_App_WebCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PT_App_WebCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA671CB2B07D737008202E0 /* PT_App_WebCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PT_App_WebCallUITests.swift; sourceTree = "<group>"; };
+		EFA671CD2B07D737008202E0 /* PT_App_WebCallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PT_App_WebCallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFA671A92B07D735008202E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA671BA2B07D737008202E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA671C42B07D737008202E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFA671A32B07D735008202E0 = {
+			isa = PBXGroup;
+			children = (
+				EFA671AE2B07D735008202E0 /* PT_App_WebCall */,
+				EFA671C02B07D737008202E0 /* PT_App_WebCallTests */,
+				EFA671CA2B07D737008202E0 /* PT_App_WebCallUITests */,
+				EFA671AD2B07D735008202E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFA671AD2B07D735008202E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFA671AC2B07D735008202E0 /* PT_App_WebCall.app */,
+				EFA671BD2B07D737008202E0 /* PT_App_WebCallTests.xctest */,
+				EFA671C72B07D737008202E0 /* PT_App_WebCallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA671AE2B07D735008202E0 /* PT_App_WebCall */ = {
+			isa = PBXGroup;
+			children = (
+				EFA671AF2B07D735008202E0 /* PT_App_WebCallApp.swift */,
+				EFA671B12B07D735008202E0 /* ContentView.swift */,
+				EFA671B32B07D737008202E0 /* Assets.xcassets */,
+				EFA671B52B07D737008202E0 /* PT_App_WebCall.entitlements */,
+				EFA671B62B07D737008202E0 /* Preview Content */,
+			);
+			path = PT_App_WebCall;
+			sourceTree = "<group>";
+		};
+		EFA671B62B07D737008202E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFA671B72B07D737008202E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFA671C02B07D737008202E0 /* PT_App_WebCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFA671C12B07D737008202E0 /* PT_App_WebCallTests.swift */,
+			);
+			path = PT_App_WebCallTests;
+			sourceTree = "<group>";
+		};
+		EFA671CA2B07D737008202E0 /* PT_App_WebCallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFA671CB2B07D737008202E0 /* PT_App_WebCallUITests.swift */,
+				EFA671CD2B07D737008202E0 /* PT_App_WebCallUITestsLaunchTests.swift */,
+			);
+			path = PT_App_WebCallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFA671AB2B07D735008202E0 /* PT_App_WebCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA671D12B07D737008202E0 /* Build configuration list for PBXNativeTarget "PT_App_WebCall" */;
+			buildPhases = (
+				EFA671A82B07D735008202E0 /* Sources */,
+				EFA671A92B07D735008202E0 /* Frameworks */,
+				EFA671AA2B07D735008202E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PT_App_WebCall;
+			productName = PT_App_WebCall;
+			productReference = EFA671AC2B07D735008202E0 /* PT_App_WebCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFA671BC2B07D737008202E0 /* PT_App_WebCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA671D42B07D737008202E0 /* Build configuration list for PBXNativeTarget "PT_App_WebCallTests" */;
+			buildPhases = (
+				EFA671B92B07D737008202E0 /* Sources */,
+				EFA671BA2B07D737008202E0 /* Frameworks */,
+				EFA671BB2B07D737008202E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA671BF2B07D737008202E0 /* PBXTargetDependency */,
+			);
+			name = PT_App_WebCallTests;
+			productName = PT_App_WebCallTests;
+			productReference = EFA671BD2B07D737008202E0 /* PT_App_WebCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFA671C62B07D737008202E0 /* PT_App_WebCallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA671D72B07D737008202E0 /* Build configuration list for PBXNativeTarget "PT_App_WebCallUITests" */;
+			buildPhases = (
+				EFA671C32B07D737008202E0 /* Sources */,
+				EFA671C42B07D737008202E0 /* Frameworks */,
+				EFA671C52B07D737008202E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA671C92B07D737008202E0 /* PBXTargetDependency */,
+			);
+			name = PT_App_WebCallUITests;
+			productName = PT_App_WebCallUITests;
+			productReference = EFA671C72B07D737008202E0 /* PT_App_WebCallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFA671A42B07D735008202E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EFA671AB2B07D735008202E0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EFA671BC2B07D737008202E0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EFA671AB2B07D735008202E0;
+					};
+					EFA671C62B07D737008202E0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EFA671AB2B07D735008202E0;
+					};
+				};
+			};
+			buildConfigurationList = EFA671A72B07D735008202E0 /* Build configuration list for PBXProject "PT_App_WebCall" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFA671A32B07D735008202E0;
+			productRefGroup = EFA671AD2B07D735008202E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFA671AB2B07D735008202E0 /* PT_App_WebCall */,
+				EFA671BC2B07D737008202E0 /* PT_App_WebCallTests */,
+				EFA671C62B07D737008202E0 /* PT_App_WebCallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFA671AA2B07D735008202E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA671B82B07D737008202E0 /* Preview Assets.xcassets in Resources */,
+				EFA671B42B07D737008202E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA671BB2B07D737008202E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA671C52B07D737008202E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFA671A82B07D735008202E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA671B22B07D735008202E0 /* ContentView.swift in Sources */,
+				EFA671B02B07D735008202E0 /* PT_App_WebCallApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA671B92B07D737008202E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA671C22B07D737008202E0 /* PT_App_WebCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA671C32B07D737008202E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA671CC2B07D737008202E0 /* PT_App_WebCallUITests.swift in Sources */,
+				EFA671CE2B07D737008202E0 /* PT_App_WebCallUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFA671BF2B07D737008202E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFA671AB2B07D735008202E0 /* PT_App_WebCall */;
+			targetProxy = EFA671BE2B07D737008202E0 /* PBXContainerItemProxy */;
+		};
+		EFA671C92B07D737008202E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFA671AB2B07D735008202E0 /* PT_App_WebCall */;
+			targetProxy = EFA671C82B07D737008202E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFA671CF2B07D737008202E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFA671D02B07D737008202E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EFA671D22B07D737008202E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PT_App_WebCall/PT_App_WebCall.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PT_App_WebCall/Preview Content\"";
+				DEVELOPMENT_TEAM = C43TBD3T7V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PTCS.PT-App-WebCall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFA671D32B07D737008202E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PT_App_WebCall/PT_App_WebCall.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PT_App_WebCall/Preview Content\"";
+				DEVELOPMENT_TEAM = C43TBD3T7V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PTCS.PT-App-WebCall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFA671D52B07D737008202E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C43TBD3T7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PTCS.PT-App-WebCallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PT_App_WebCall.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PT_App_WebCall";
+			};
+			name = Debug;
+		};
+		EFA671D62B07D737008202E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C43TBD3T7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PTCS.PT-App-WebCallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PT_App_WebCall.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PT_App_WebCall";
+			};
+			name = Release;
+		};
+		EFA671D82B07D737008202E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C43TBD3T7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PTCS.PT-App-WebCallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PT_App_WebCall;
+			};
+			name = Debug;
+		};
+		EFA671D92B07D737008202E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C43TBD3T7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PTCS.PT-App-WebCallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PT_App_WebCall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFA671A72B07D735008202E0 /* Build configuration list for PBXProject "PT_App_WebCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA671CF2B07D737008202E0 /* Debug */,
+				EFA671D02B07D737008202E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA671D12B07D737008202E0 /* Build configuration list for PBXNativeTarget "PT_App_WebCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA671D22B07D737008202E0 /* Debug */,
+				EFA671D32B07D737008202E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA671D42B07D737008202E0 /* Build configuration list for PBXNativeTarget "PT_App_WebCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA671D52B07D737008202E0 /* Debug */,
+				EFA671D62B07D737008202E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA671D72B07D737008202E0 /* Build configuration list for PBXNativeTarget "PT_App_WebCallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA671D82B07D737008202E0 /* Debug */,
+				EFA671D92B07D737008202E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFA671A42B07D735008202E0 /* Project object */;
+}
