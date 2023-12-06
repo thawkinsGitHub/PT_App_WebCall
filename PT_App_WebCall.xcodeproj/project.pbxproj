@@ -45,6 +45,7 @@
 		EFA671C72B07D737008202E0 /* PT_App_WebCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PT_App_WebCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA671CB2B07D737008202E0 /* PT_App_WebCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PT_App_WebCallUITests.swift; sourceTree = "<group>"; };
 		EFA671CD2B07D737008202E0 /* PT_App_WebCallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PT_App_WebCallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFA671DA2B07DBEA008202E0 /* PT-App-WebCall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PT-App-WebCall-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		EFA671AE2B07D735008202E0 /* PT_App_WebCall */ = {
 			isa = PBXGroup;
 			children = (
+				EFA671DA2B07DBEA008202E0 /* PT-App-WebCall-Info.plist */,
 				EFA671AF2B07D735008202E0 /* PT_App_WebCallApp.swift */,
 				EFA671B12B07D735008202E0 /* ContentView.swift */,
 				EFA671B32B07D737008202E0 /* Assets.xcassets */,
@@ -424,6 +426,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PT-App-WebCall-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -462,6 +465,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PT-App-WebCall-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
